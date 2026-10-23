@@ -85,90 +85,14 @@ threats:
   - {id: T26, target: case_db, category: D, title: Case database fills its disk during a scam wave and stops accepting flags, likelihood: 2, impact: 4, status: open}
   - {id: T27, target: scorer, category: E, title: Analyst console token reused to call scorer admin endpoints, likelihood: 2, impact: 5, status: open}
 
-  - id: T28
-    target: analyst_console
-    category: S
-    title: Attacker impersonates an analyst to access the console
-    likelihood: 3
-    impact: 4
-    status: open
-
-  - id: T29
-    target: analyst_console
-    category: T
-    title: Malware alters case details displayed in the analyst console
-    likelihood: 2
-    impact: 4
-    status: open
-
-  - id: T30
-    target: analyst_console
-    category: R
-    title: Analyst denies approving a suspicious transfer decision
-    likelihood: 3
-    impact: 3
-    status: open
-
-  - id: T31
-    target: analyst_console
-    category: I
-    title: Sensitive customer information leaks through console screenshots
-    likelihood: 3
-    impact: 4
-    status: open
-
-  - id: T32
-    target: analyst_console
-    category: D
-    title: Excessive case requests make the analyst console unavailable
-    likelihood: 2
-    impact: 3
-    status: open
-
-  - id: T33
-    target: analyst_console
-    category: E
-    title: Low privilege analyst gains administrative console permissions
-    likelihood: 2
-    impact: 5
-    status: open
-
-  - id: T34
-    target: case_db
-    category: T
-    title: Unauthorized changes modify stored customer case records
-    likelihood: 2
-    impact: 5
-    status: open
-
-  - id: T35
-    target: f08
-    category: T
-    title: Case decisions are modified while transferred to the database
-    likelihood: 2
-    impact: 4
-    status: open
-
-  - id: T36
-    target: f08
-    category: I
-    title: Customer personal information is exposed during case transfers
-    likelihood: 2
-    impact: 5
-    status: open
-
-  - id: T37
-    target: f08
-    category: D
-    title: Network disruption prevents case decisions reaching the database
-    likelihood: 2
-    impact: 4
-    status: open
-
-  - id: T38
-    target: feature_store
-    category: I
-    title: Unauthorized access exposes personal data stored as account features
-    likelihood: 3
-    impact: 5
-    status: open
+  - {id: T28, target: analyst_console, category: S, title: Attacker impersonates an analyst to access the console, likelihood: 3, impact: 4, status: open}
+  - {id: T29, target: analyst_console, category: T, title: Malware alters case details displayed in the analyst console, likelihood: 2, impact: 4, status: open}
+  - {id: T30, target: analyst_console, category: R, title: Analyst denies approving a suspicious transfer decision, likelihood: 3, impact: 3, status: open}
+  - {id: T31, target: analyst_console, category: I, title: Sensitive customer information leaks through console screenshots, likelihood: 3, impact: 4, status: open}
+  - {id: T32, target: analyst_console, category: D, title: Excessive case requests make the analyst console unavailable, likelihood: 2, impact: 3, status: open}
+  - {id: T33, target: analyst_console, category: E, title: Low privilege analyst gains administrative console permissions, likelihood: 2, impact: 5, status: open}
+  - {id: T34, target: case_db, category: T, title: Unauthorized changes modify stored customer case records, likelihood: 2, impact: 5, status: open}
+  - {id: T35, target: f08, category: T, title: Case decisions are modified while transferred to the database, likelihood: 2, impact: 4, status: open}
+  - {id: T36, target: f08, category: I, title: Customer personal information is exposed during case transfers, likelihood: 2, impact: 5, status: open}
+  - {id: T37, target: f08, category: D, title: Network disruption prevents case decisions reaching the database, likelihood: 2, impact: 4, status: open}
+  - {id: T38, target: feature_store, category: I, title: Unauthorized access exposes personal data stored as account features, likelihood: 3, impact: 5, status: open}
