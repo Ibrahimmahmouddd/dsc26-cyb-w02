@@ -1,0 +1,148 @@
+{
+  "issues": [],
+  "gaps": [
+    {
+      "ref": "analyst_console",
+      "category": "S"
+    },
+    {
+      "ref": "analyst_console",
+      "category": "T"
+    },
+    {
+      "ref": "analyst_console",
+      "category": "R"
+    },
+    {
+      "ref": "analyst_console",
+      "category": "I"
+    },
+    {
+      "ref": "analyst_console",
+      "category": "D"
+    },
+    {
+      "ref": "analyst_console",
+      "category": "E"
+    },
+    {
+      "ref": "case_db",
+      "category": "T"
+    },
+    {
+      "ref": "f08",
+      "category": "T"
+    },
+    {
+      "ref": "f08",
+      "category": "I"
+    },
+    {
+      "ref": "f08",
+      "category": "D"
+    },
+    {
+      "ref": "scorer",
+      "category": "E"
+    }
+  ],
+  "policy": [
+    {
+      "ref": "f08",
+      "code": "UNENCRYPTED_CROSSING",
+      "message": "crossing flow is not encrypted"
+    },
+    {
+      "ref": "feature_store",
+      "code": "PII_STORE_WITHOUT_I_THREAT",
+      "message": "personal data store has no information-disclosure threat"
+    }
+  ],
+  "ranked": [
+    {
+      "id": "T2",
+      "score": 16,
+      "level": "high"
+    },
+    {
+      "id": "T4",
+      "score": 15,
+      "level": "high"
+    },
+    {
+      "id": "T3",
+      "score": 12,
+      "level": "medium"
+    },
+    {
+      "id": "T5",
+      "score": 12,
+      "level": "medium"
+    },
+    {
+      "id": "T6",
+      "score": 12,
+      "level": "medium"
+    },
+    {
+      "id": "T21",
+      "score": 12,
+      "level": "medium"
+    },
+    {
+      "id": "T24",
+      "score": 12,
+      "level": "medium"
+    },
+    {
+      "id": "T18",
+      "score": 10,
+      "level": "medium"
+    },
+    {
+      "id": "T11",
+      "score": 9,
+      "level": "medium"
+    },
+    {
+      "id": "T16",
+      "score": 9,
+      "level": "medium"
+    },
+    {
+      "id": "T14",
+      "score": 8,
+      "level": "medium"
+    },
+    {
+      "id": "T15",
+      "score": 8,
+      "level": "medium"
+    },
+    {
+      "id": "T22",
+      "score": 8,
+      "level": "medium"
+    },
+    {
+      "id": "T25",
+      "score": 8,
+      "level": "medium"
+    },
+    {
+      "id": "T26",
+      "score": 8,
+      "level": "medium"
+    },
+    {
+      "id": "T17",
+      "score": 6,
+      "level": "low"
+    },
+    {
+      "id": "T23",
+      "score": 5,
+      "level": "low"
+    }
+  ]
+}
