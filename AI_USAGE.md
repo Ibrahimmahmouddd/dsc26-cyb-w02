@@ -1,22 +1,16 @@
 # AI usage: dsc26-cyb-w02
 
-Keep the three headings below exactly as they are. The grader stops and scores 0 if this file is
-missing or any of the three headings is missing. It does not score what you write; your Track
-Mentor reads it, and the W8 defence can ask about it.
-
 ## Tools
 
-<!-- Which AI tools you used (or "none"), and for which parts of the task. -->
+I mainly used Claude to work on the threat model and the Python checker. I used ChatGPT in the final stage to understand the threat scoring, review the new threats, troubleshoot issues, and complete the AI usage documentation.
 
 ## What AI got wrong
 
-<!-- At least one thing an AI tool got wrong that you changed, and how you noticed:
-     a test, the docs, running it. -->
+Some AI guidance was based on an earlier state of the threat model. I checked the current YAML file and ran the checker again to verify the results before accepting the guidance.
 
 ## In my own words
 
-<!-- One or two sentences each, written without AI. -->
+1. A data store has no Spoofing threat in STRIDE per element because Spoofing targets an identity, not the data store itself. The threat applies to the user or process whose identity an attacker tries to impersonate.
 
-1. Why does a data store have no Spoofing threats in STRIDE per element, and where does that threat go instead?
+2. I would fix T38 first because unauthorized access to the feature store could expose customers personal data. Protecting this information is important for customer privacy and security.
 
-2. Which of your eleven new threats would you fix first, and why that one?
